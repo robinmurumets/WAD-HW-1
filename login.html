@@ -3,9 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
+    <link rel="stylesheet" href="res/css/style.css">
 </head>
-<body>
-    
+<body>    
+    <!-- navbar stuff -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>                
+        </ul>
+        <img src="res/images/Default_Profile.png" width="60px" height="60px" alt="Profile">
+    </nav>    
+
+    <!-- actual login box -->
+     <div class = "login-box">  
+        <!-- welcome text and account details -->
+        <h2><strong>Welcome to PostIt</strong></h2>
+
+        <!-- link that takes you to account creation -->
+        <div>
+            <a href="">Create an account</a>
+        </div>
+        <div>
+            <p>or</p>
+            <p>Please log in</p>
+        </div>
+        <div class="credentials">
+            <input type="text" id="email" name="email" placeholder="Email">
+            <input type="text" id="password" name="password" placeholder="Password">
+        </div>
+        <div class="login-button">
+            <button>Log in</button>
+        </div>
+        <div>
+            <a href="">Forgot password</a>
+        </div>
+
+     </div>
+
+
 </body>
 </html>

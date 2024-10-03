@@ -12,15 +12,15 @@ body {
 }
 
 nav {
-    width: 100%;
-    background-color: black;
-    top: 0;
+    width: 99%;
+    background-color: gray;     
     padding-top: .5em;
     padding-bottom: .5em;
-    margin: 0;
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
+    flex-direction: row;       
+    border-radius: 15px; /* to make corners round like in example*/
+    margin: .5em .5%; /* a small gap from the top and sides of page*/
     
 }
 
@@ -66,4 +66,30 @@ nav a {
     width: 33.33%;
     padding: 10px;
     height: 300px;
+}
+
+/* login.html styling*/
+.login-box {
+    margin: 20vh auto;
+    width: 50%;
+    height: 80%;
+    display: block;
+    background-color: gray;
+    border-radius: 15px; 
+    padding: 2em;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.login-box h2, p {
+    color: brown;
+}
+
+.login-box button {
+    background-color: cornflowerblue;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 1em 1em;
 }
