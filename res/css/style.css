@@ -160,7 +160,7 @@ nav > img { /* usage of child selector */
     text-align: center;
 }
 
-.addPost-box button {
+.addPost-box div ~ button {
     background-color: navy;
     border: none;
     color: white;
@@ -204,7 +204,7 @@ nav > img { /* usage of child selector */
     font-size: 3vh;
 }
 
-.addPost-selectFile button {
+.addPost-selectFile p + button {
     background-color: darkgray;
     border: solid 1px black;
     color: white;
@@ -221,26 +221,27 @@ nav > img { /* usage of child selector */
 /* --------------------------------------------------------------------------------- */
 
 @media(min-width: 1800px){ /* for really large screens */
-    .login-box{
+    .login-box, .addPost-box{
         width: 20%;
     }
 }
 @media (max-width: 1800px) {
-    .post, .login-box {
+    .post, .login-box , .addPost-box{
         width: 50%;
     }
 
 }
 
 @media (max-width: 1400px) {
-    .post, .login-box {
+    .post, .login-box , .addPost-box{
         width: 60%;
     }
 }
 
 @media (max-width: 800px) {
-    .post, .login-box {
+    .post, .login-box , .addPost-box{
         width: 90%;
     }
 }
+
 
