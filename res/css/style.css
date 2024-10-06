@@ -24,7 +24,7 @@ p {
 
 nav {
     width: 99%;
-    background-color: gray;     
+    background-color: rgb(37, 37, 37);     
     padding-top: .5em;
     padding-bottom: .5em;
     display: flex;
@@ -54,8 +54,8 @@ nav a:hover { /* pseudo class usage */
     border-radius: 20px;
     background-color: #131313;
 }
-nav > img { /* usage of child selector */
-    margin-right: 5%;
+nav > div { /* usage of child selector */
+    padding-right: 1em;
 }
 
 .feed {
@@ -214,9 +214,6 @@ nav > img { /* usage of child selector */
     font-size: 3vh;
 }
 
-.profile-button {
-    padding-right: 1em;
-}
 
 /* --------------------------------------------------------------------------------- */
 
