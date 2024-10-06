@@ -221,7 +221,7 @@ nav > img { /* usage of child selector */
 /* --------------------------------------------------------------------------------- */
 
 @media(min-width: 1800px){ /* for really large screens */
-    .login-box, .addPost-box{
+    .login-box{
         width: 20%;
     }
 }
