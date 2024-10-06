@@ -88,7 +88,7 @@ nav > img { /* usage of child selector */
     text-align: center;
 }
 
-.login-box h2, p {
+.login-box h2, .login-box p {
     color:crimson;
 }
 
